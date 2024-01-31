@@ -26,7 +26,7 @@ public class HelloController {
 		//배열의 요소는 index를 통해 읽고 쓸 수 있다.
 		//HashMap, Dictionary, json 동일한 구조
 		//키와 값 쌍으로 구성되ㅡㄴ 데이터를 저장해서 데이터를 읽고 쓸 때 키 값 찾아서 읽고 쓰기 한다.
-		//{name:"홍길동",~~~} json과 같음
+		//{name:"홍길동",~~~} json과 같음!
 		map.put("name", "홍길동");
 		map.put("phone", "010-0000-0000");
 		map.put("address", "서울시 관악구");

@@ -94,6 +94,7 @@ public class HelloController {
 		int totalMoney = hour*perpay;
 		return totalMoney;
 	}
+	// /payment는 내가 /getPayment는 해설
 	//@RequestBody : 데이터를 client가 json형태로 보낼때 json데이터를 받아서 자바객체로 전환과정을 거친다.
 	// HashMap이나 DTO(Data Transfer Object)클래스를 만드는 것이 좋다.
 	// DB 테이블 필드와 거의 1:1

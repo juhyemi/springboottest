@@ -103,7 +103,7 @@ public class HelloController {
 	// name=홍길동&age=12 ===> {"name":"홍길동","age":12}
 	//Restful API - 데이터 주고받을 때 표준이 xml이나 json이다.
 	//xml은 실제 데이터를 가져오는 parsing 과정이 별도로 필요하다.
-	//(파서프로그램도 많다. 점점 시장에서 자리 잃고 있다. json으로 거의 통일되고 있는 상황
+	//(파서프로그램도 많다. 점점 시장에서 자리 잃고 있다. json으로 거의 통일되고 있는 상황이다.
 	
 	@PostMapping("/getPayment")
 	HashMap<String, Object> getPayment(@RequestBody HashMap<String, String> param){
